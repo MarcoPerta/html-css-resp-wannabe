@@ -145,10 +145,18 @@ img {
 
     .why-us{
         background-color: black;
+        margin-bottom: 0;
     }
+
+    .why-us > .container h2{
+        padding-top: 30px;
+    }
+
+    .steps{
+        margin: 0;
+    }
+
 }
-
-
 
 @media screen and (max-width: 1140px){
     .container{
