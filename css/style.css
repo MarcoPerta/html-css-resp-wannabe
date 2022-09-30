@@ -129,9 +129,7 @@ img {
  ************************************************/
 
 @media screen and (max-width: 480px){
-    .container{
-       width: 480px;
-    }
+
     .site-header {
         width: 80%;
         margin: auto;
@@ -144,5 +142,17 @@ img {
         width: 100%;
         padding-bottom: 70px;
     }
+
+    .why-us{
+        background-color: black;
+    }
+}
+
+
+
+@media screen and (max-width: 1140px){
+    .container{
+        width: 100%;
+     }
 
 }
